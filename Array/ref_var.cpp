@@ -12,5 +12,8 @@ int main(){
     cout<<"After Incrementing k Following are the results for a and n: "<<endl;
     cout<<"a: "<<a<<" ,k: "<<k<<" ,n: "<<n;
 
+    cout<<"After Incrementing k Following are the Addresses for a,k and n: "<<endl;
+    cout<<"a: "<<&a<<" ,k: "<<&k<<" ,n: "<<&n;
+
     return 0;
 }
