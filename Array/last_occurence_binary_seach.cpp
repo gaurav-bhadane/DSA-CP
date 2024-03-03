@@ -7,7 +7,7 @@ int binarySearch(int a[],int n,int target){
     int ans=-1;
     while(start<=end){
         if (a[mid]==target){
-            end=mid-1;
+            start=mid+1;
             ans=mid;
         }
         else if (a[mid]<target){
@@ -28,7 +28,7 @@ int main(){
     int target=4;
     int ans=binarySearch(a,n,target);
     if (ans!=-1){
-        cout<<"First Index of Target Found at Index: "<<ans;
+        cout<<"Last Index of Target Found at Index: "<<ans;
     }
     else{
         cout<<"Element Not Found";
