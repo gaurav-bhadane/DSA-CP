@@ -9,10 +9,10 @@ int pivotIndex(int arr[],int n){
         if (start==end){
             return start;
         }
-        else if (arr[mid]<arr[mid-1]){
+        else if (mid-1>=0 && arr[mid]<arr[mid-1]){
             return mid-1;
         }
-        else if (arr[mid]>arr[mid+1]) {
+        else if (mid+1<n && arr[mid]>arr[mid+1]) {
             return mid;
         }
         else if (arr[start]>arr[mid]){
@@ -26,8 +26,9 @@ int pivotIndex(int arr[],int n){
 }
 
 int main(){
+    int arr2[]={1,3};
     int arr[]={12,14,16,2,4,6,8,10};
-    int n=8;
-    cout<<"Pivot Index is: "<<pivotIndex(arr,n);
+    int n=8,n2=2;
+    cout<<"Pivot Index is: "<<pivotIndex(arr2,n2);
     
 }
