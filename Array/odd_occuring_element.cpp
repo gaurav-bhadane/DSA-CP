@@ -48,7 +48,7 @@ int oddOccurence(int arr[],int n){
 
 int main(){
     
-    int arr[]={1,1,3,3,4,4,4};
+    int arr[]={1,1,3,3,4,4,7,};
     int n=7;
     cout<<"The No. Occuring Odd times is: "<<oddOccurence(arr,n);
     return 0;
