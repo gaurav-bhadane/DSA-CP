@@ -8,6 +8,7 @@ int main()
     cout<<ptr<<endl;
     char ch='g';
     char *ptr2=&ch;
+    //Size Calculated
     // cout<<"Size of ptr: "<<sizeof(ptr)<<endl;
     // cout<<"Size of ptr2: "<<sizeof(ptr2)<<endl;
     a=a+1;
