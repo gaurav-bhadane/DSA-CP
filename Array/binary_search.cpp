@@ -29,6 +29,6 @@ int main(){
         cout<<"Element Found at Index: "<<ans;
     }
     else{
-        cout<<"Element Not Found";
+        cout<<"Not Found";
     }
 }
