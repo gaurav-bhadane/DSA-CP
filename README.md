@@ -3,7 +3,7 @@ Data Structures and Algorithms Problems Practice for Competitive Programming fro
 
 # Data Structures and Algorithms Programs
 
-Welcome to the Data Structures and Algorithms Programs repository! This repository contains implementations of various data structures and algorithms in different programming languages.
+Welcome to the Data Structures and Algorithms Programs repository! This repository contains implementations of various data structures and algorithms in C++ programming languages.
 
 ## Overview
 
