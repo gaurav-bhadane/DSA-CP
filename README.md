@@ -17,7 +17,7 @@ This repository is solely dedicated to providing implementations of data structu
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute, feel free to add new implementations, improve existing ones, or suggest enhancements.
+Contributions are welcome! If you would like to contribute, feel free to add new implementations, improve existing ones, or suggest enhancements.
 
 ## Feedback and Support
 
