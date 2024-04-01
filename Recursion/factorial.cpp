@@ -12,6 +12,9 @@ int fact(int n){
 
 int main()
 {
-    cout<<fact(5);
+    int n;
+    cout<<"Enter the value of n: ";
+    cin>>n;
+    cout<<"Factorial of "<<n<<" is: "<<fact(6);
     return 0;
 }
