@@ -1,1 +1,1 @@
-int ans=
+NT_MAX
