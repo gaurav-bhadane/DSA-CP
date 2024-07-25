@@ -18,7 +18,7 @@ void extremeVal(int arr[],int n){
 }
 
 int main(){
-    int arr[6]={10,50,56,122,48,1};
+    int arr[6]={10,20,30,40,50,60};
     int n=6;
     extremeVal(arr,n);
     // reverseArray(arr,n,a);
