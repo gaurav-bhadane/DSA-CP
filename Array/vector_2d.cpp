@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    vector <vector<int> > arr (5, vector <int> (10,2304));
+    vector <vector<int> > arr (5, vector <int> (10,10));
 
     for (int i=0;i<arr.size();i++){
         for (int j=0;j<arr[i].size();j++){
